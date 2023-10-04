@@ -17,8 +17,8 @@ function Nav() {
 
   return (
     <div className="flex justify-evenly dark:text-lightbg">
-      <div className="felx p-4 m-4">
-        <h1 className="text-4xl text-primary">Placeholder</h1>
+      <div className="felx p-8 m-4">
+        <h1 className="text-4xl text-primary">VAI</h1>
       </div>
       <ul className="flex p-4 m-4">
         <li className="p-4 m-4">
