@@ -2,6 +2,14 @@
   import "tailwindcss/tailwind.css";
 </script>
 
+<svelte:head>
+    <title>VAI Interijeri i keramika</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="Copyright owner" />
+    <meta name="author" content="Valentin Vareskic" />
+    <meta name="description" content="Stranica za radove interijera i keramike.">
+</svelte:head>
+
 <div class="drawer">
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
   <div class="drawer-content flex flex-col">
