@@ -1,5 +1,10 @@
 <script>
   import "tailwindcss/tailwind.css";
+
+  let isScrolled = false;
+  window.addEventListener('scroll', () => {
+      isScrolled = window.scrollY > 0;
+  });
 </script>
 
 <svelte:head>
@@ -14,7 +19,7 @@
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
   <div class="drawer-content flex flex-col">
     <!-- Navbar -->
-    <div class="w-full bg-base-100 navbar sticky top-0 z-10">
+    <div class="{isScrolled ? 'shadow-xl' : 'shadow-none'} bg-base-100 ease-in duration-300 w-full navbar sticky top-0 z-10">
       <div class="flex-none lg:hidden">
         <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -24,9 +29,9 @@
       <div class="flex-none hidden lg:block">
         <ul class="menu menu-horizontal hover:bg-none">
           <li class="hover:text-primary"><a class="hover:bg-base-100" href="/">Pocetna</a></li>
-          <li class="hover:text-primary"><a href="/about">O nama</a></li>
-          <li class="hover:text-primary"><a href="/gallery">Galerija</a></li>
-          <li class="hover:text-primary"><a href="/contact">Kontakt</a></li>
+          <li class="hover:text-primary"><a class="hover:bg-base-100" href="/about">O nama</a></li>
+          <li class="hover:text-primary"><a class="hover:bg-base-100" href="/gallery">Galerija</a></li>
+          <li class="hover:text-primary"><a class="hover:bg-base-100" href="/contact">Kontakt</a></li>
         </ul>
       </div>
     </div>

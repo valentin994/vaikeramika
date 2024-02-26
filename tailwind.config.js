@@ -12,7 +12,8 @@ export default {
             {
                 mytheme: {
                     "primary": "#FF5733",
-                    "base-100": "#FCFCFC"
+                    "secondary": "#171612",
+                    "base-100": "#FCFCFC",
                 },
             }
         ],
