@@ -1,6 +1,6 @@
 <div class="hero min-h-screen bg-base-100">
   <div class="hero-content flex-col lg:flex-row-reverse shadow-xl m-0 p-0 pl-8">
-    <img src="src/lib/assets/homepage_tiles.jpg" alt="Bathroom tiles" class="rounded-lg shadow-2xl h-auto w-1/3 xs:w-full" />
+    <img src="/homepage_tiles.jpg" alt="Bathroom tiles" class="rounded-lg shadow-2xl h-auto w-1/3 xs:w-full" />
     <div class="w-full">
       <h1 class="text-5xl font-bold">Trebate majstora?</h1>
       <p class="py-6">Ostvarite dom svojih snova.</p>
