@@ -1,6 +1,7 @@
 <script>
-	import 'tailwindcss/tailwind.css';
+    import "../app.css";
 	import { page } from '$app/stores';
+    let isMenuOpen = false;
 	/**
 	 * @type {string}
 	 */
@@ -15,57 +16,97 @@
 	<meta name="author" content="Valentin Vareskic" />
 	<meta name="description" content="Stranica za radove interijera i keramike." />
 </svelte:head>
+    <nav class="text-textcol bg-red-500 hover:bg-red-800 px-4 py-2">
+      <div class="flex flex-wrap items-center justify-between mx-auto w-full ">
+        <a href="/" class="flex items-center p-4">
+          <span class="self-center text-xl font-light whitespace-nowrap">
+            VAI Keramika
+          </span>
+        </a>
+        <div class="p-4 hidden md:max-[4200px]:block text-lg">
+          <ul class="flex">
+            <li class="px-2 hover:text-red-800">
+              <a href="/">Pocetna</a>
+            </li>
+            <li class="px-2 hover:text-gray-200">
+              <a href="/about">O nama</a>
+            </li>
+            <li class="px-2 hover:text-gray-200">
+              <a href="/gallery">Galerija</a>
+            </li>
+            <li class="px-2 hover:text-gray-200">
+              <a href="/contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="md:hidden m-4 flex top-0 right-0 z-20 relative w-10 h-10 text-textcol focus:outline-none"
+          on:click={()=> isMenuOpen = !isMenuOpen}
+        >
+          <div class="absolute w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
+            <span
+              class={`absolute h-0.5 w-5 bg-textcol transform transition duration-300 ease-in-out ${
+                isMenuOpen ? "rotate-45 delay-200" : "-translate-y-1.5"
+              }`}
+            ></span>
+            <span
+              class={`absolute h-0.5 bg-textcol transform transition-all duration-200 ease-in-out ${
+                isMenuOpen ? "w-0 opacity-50" : "w-5 delay-200 opacity-100"
+              }`}
+            ></span>
+            <span
+              class={`absolute h-0.5 w-5 bg-textcol transform transition duration-300 ease-in-out ${
+                isMenuOpen ? "-rotate-45 delay-200" : "translate-y-1.5"
+              }`}
+            ></span>
+          </div>
+        </button>
+      </div>
 
-<div class="drawer">
-	<input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-	<div class="drawer-content flex flex-col">
-		<!-- Navbar -->
-		<div class="bg-secondary text-white ease-in duration-300 w-full navbar sticky top-0 z-10">
-			<div class="flex-none lg:hidden">
-				<label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						class="inline-block w-6 h-6 stroke-current"
-						><path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M4 6h16M4 12h16M4 18h16"
-						></path></svg
-					>
-				</label>
-			</div>
-			<div class="flex-1 px-2 mx-2">VAI</div>
-			<div class="flex-none hidden lg:block">
-				<ul class="menu menu-horizontal hover:bg-none">
-					<li class="hover:text-primary" class:active={href == '/'}><a href="/">Pocetna</a></li>
-					<li class="hover:text-primary" class:active={href == '/about'}>
-						<a href="/about">O nama</a>
-					</li>
-					<li class="hover:text-primary" class:active={href == '/gallery'}>
-						<a href="/gallery">Galerija</a>
-					</li>
-					<li class="hover:text-primary" class:active={href == '/contact'}>
-						<a href="/contact">Kontakt</a>
-					</li>
-				</ul>
-			</div>
-		</div>
+    <nav
+        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-gray-900 text-white bg-opacity-100 transform delay-100 transition-all duration-300 ${
+          isMenuOpen
+            ? "opacity-100 translate-x-0"
+            : "opacity-0 -translate-x-full"
+        }`}
+      >
+        <ul class="flex flex-col items-center w-full justify-center align-middle text-center">
+          <li class="text-2xl p-4">
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li class="text-2xl p-4">
+            <a
+              href="/apartments"
+              class="nav-link"
+            >
+              Apartments
+            </a>
+          </li>
+          <li class="text-2xl p-4">
+            <a
+              href="/region"
+              class="nav-link"
+            >
+              Region
+            </a>
+          </li>
+          <li class="text-2xl p-4">
+            <a
+              href="/contact"
+              class="nav-link"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </nav>
+
 		<slot />
-	</div>
-	<div class="drawer-side">
-		<label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
-		<ul class="menu p-4 w-80 min-h-full bg-base-200">
-			<!-- Sidebar content here -->
-			<li><a href="/">Pocetna</a></li>
-			<li><a href="/about">O nama</a></li>
-			<li><a href="/gallery">Galerija</a></li>
-			<li><a href="/contact">Kontakt</a></li>
-		</ul>
-	</div>
-</div>
 <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
 	<nav class="grid grid-flow-col gap-4">
 		<a class="link link-hover" href="/">Pocetna</a>
@@ -118,12 +159,3 @@
 	</aside>
 </footer>
 
-<style>
-	.menu li > *:not(ul):not(.menu-title):not(details):active {
-		@apply bg-transparent;
-	}
-	.active {
-		@apply bg-transparent;
-		@apply text-primary;
-	}
-</style>
