@@ -108,10 +108,10 @@
         </ul>
       </nav>
       </nav>
-        <div class="flex-grow">
+        <div class="flex-grow bg-background">
 		  <slot />
         </div>
-    <div class="bg-secondary p-2 text-background text-sm">
+    <div class="bg-white p-2 text-gray-500 text-sm">
         <div class="flex flex-row justify-between">
             <ul class="p-2">
                 <li><a href="/">Pocetna</a></li>
@@ -126,7 +126,7 @@
                 <p>75973836834</p>
             </div> 
         </div>
-        <hr class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-background to-transparent opacity-25" />
+        <hr class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-textcol to-transparent opacity-25" />
         <div class="p-2 text-center">
             <p class="text-xs">© VAI Keramika i interijeri, sva prava pridrzana</p> 
             <p class="text-xs">created by Valentin Vareskic</p>
