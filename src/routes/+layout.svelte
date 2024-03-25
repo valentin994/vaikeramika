@@ -14,7 +14,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="copyright" content="Copyright owner" />
 	<meta name="author" content="Valentin Vareskic" />
-	<meta name="description" content="Stranica za radove interijera i keramike." />
+    <meta name="description" content="Obratite se VAI Keramika i interijeri za vrhunsku uslugu postavljanja pločica u Hrvatskoj. Naši stručnjaci će transformirati vaš prostor u sanjani interijer.">
+    <meta name="keywords" content="VAI Keramika i interijeri, pločice, keramika, postavljanje pločica, Hrvatska, interijeri, VAI" />
 </svelte:head>
 
 <div class="min-h-screen flex flex-col overflow-y-scroll">
