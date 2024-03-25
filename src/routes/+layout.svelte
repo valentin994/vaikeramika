@@ -45,8 +45,8 @@
         >
           <div class="absolute w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
             <span
-              class={`absolute h-0.5 w-5 bg-textcol transform transition duration-300 ease-in-out ${
-                isMenuOpen ? "rotate-45 delay-200" : "-translate-y-1.5"
+              class={`absolute h-0.5 w-5 bg-[#434343] transform transition duration-300 ease-in-out ${
+                isMenuOpen ? "rotate-45 bg-[#FDFDFD] delay-200" : "-translate-y-1.5"
               }`}
             ></span>
             <span
@@ -55,8 +55,8 @@
               }`}
             ></span>
             <span
-              class={`absolute h-0.5 w-5 bg-textcol transform transition duration-300 ease-in-out ${
-                isMenuOpen ? "-rotate-45 delay-200" : "translate-y-1.5"
+              class={`absolute h-0.5 w-5 bg-[#434343] transform transition duration-300 ease-in-out ${
+                isMenuOpen ? "-rotate-45 bg-[#FDFDFD] delay-200" : "translate-y-1.5"
               }`}
             ></span>
           </div>
@@ -64,7 +64,7 @@
       </div>
 
     <nav
-        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-textcol text-white bg-opacity-100 transform delay-100 transition-all duration-300 ${
+        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-primary text-background bg-opacity-100 transform delay-100 transition-all duration-300 ${
           isMenuOpen
             ? "opacity-100 translate-x-0"
             : "opacity-0 -translate-x-full"
@@ -105,9 +105,9 @@
         </ul>
       </nav>
       </nav>
-
-		<slot />
-
+        <div class="bg-[url('/background_mobile.svg')]">
+		  <slot />
+        </div>
 
 <style lang="postcss">
   :global(body) {
@@ -115,3 +115,4 @@
     @apply text-textcol;
   }
 </style>
+
