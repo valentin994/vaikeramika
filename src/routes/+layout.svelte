@@ -111,7 +111,7 @@
         <div class="flex-grow bg-background">
 		  <slot />
         </div>
-    <div class="bg-white p-2 border-t text-gray-500 text-sm">
+    <footer class="bg-white p-2 border-t-2 border-gray-100 text-gray-500 text-sm">
         <div class="flex flex-row justify-between">
             <ul class="p-2">
                 <li><a href="/">Pocetna</a></li>
@@ -131,7 +131,7 @@
             <p class="text-xs">© VAI Keramika i interijeri, sva prava pridrzana</p> 
             <p class="text-xs">created by Valentin Vareskic</p>
         </div>
-    </div>
+    </footer>
 </div>
 
 <style lang="postcss">
