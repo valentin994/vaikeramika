@@ -16,6 +16,9 @@
 	<meta name="author" content="Valentin Vareskic" />
 	<meta name="description" content="Stranica za radove interijera i keramike." />
 </svelte:head>
+
+<div class="min-h-screen flex flex-col overflow-y-scroll">
+
     <nav class="text-textcol px-4 py-2 border-b-2 border-gray-100">
       <div class="flex flex-wrap items-center justify-between mx-auto w-full ">
         <a href="/" class="flex items-center p-4">
@@ -105,9 +108,31 @@
         </ul>
       </nav>
       </nav>
-        <div class="bg-[url('/background_mobile.svg')]">
+        <div class="flex-grow">
 		  <slot />
         </div>
+    <div class="bg-secondary p-2 text-background text-sm">
+        <div class="flex flex-row justify-between">
+            <ul class="p-2">
+                <li><a href="/">Pocetna</a></li>
+                <li><a href="/about">O nama</a></li>
+                <li><a href="/gallery">Galerija</a></li>
+                <li><a href="/contact">Kontakt</a></li>
+            </ul>
+            <div class="p-2 text-end">
+                <p>VAI Interijeri i keramika</p>
+                <p>Ivica Vareskic</p>
+                <p>+385 98 311 585</p>
+                <p>75973836834</p>
+            </div> 
+        </div>
+        <hr class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-background to-transparent opacity-25" />
+        <div class="p-2 text-center">
+            <p class="text-xs">© VAI Keramika i interijeri, sva prava pridrzana</p> 
+            <p class="text-xs">created by Valentin Vareskic</p>
+        </div>
+    </div>
+</div>
 
 <style lang="postcss">
   :global(body) {
