@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="text-center p-4">
-        <button class="px-4 py-2 bg-secondary text-background text-xl max-w-48 rounded-lg shadow-lg">Kontaktirajte nas</button>
+        <button id="Contact call to action" class="px-4 py-2 bg-secondary text-background text-xl max-w-48 rounded-lg shadow-lg">Kontaktirajte nas</button>
     </div>
     <div class="p-4 text-textcol">
         <div class="p-4 bg-white bg-opacity-75 rounded-lg shadow-lg">
@@ -28,3 +28,4 @@
         </div>
     </div>
 </div>
+

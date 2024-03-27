@@ -20,7 +20,7 @@
 
 <div class="min-h-screen flex flex-col overflow-y-scroll">
 
-    <nav class="text-textcol px-4 py-2 border-b-2 border-gray-100">
+    <nav class="text-textcol px-4 py-2 ">
       <div class="flex flex-wrap items-center justify-between mx-auto w-full ">
         <a href="/" class="flex items-center p-4">
           <img class="max-w-24" alt="Logo" src="./vai_logo.svg" />
