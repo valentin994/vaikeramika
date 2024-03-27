@@ -44,6 +44,7 @@
           </ul>
         </div>
         <button
+          name="Contact call to action"
           class="md:hidden m-4 flex top-0 right-0 z-20 relative w-10 h-10 text-textcol focus:outline-none"
           on:click={()=> isMenuOpen = !isMenuOpen}
         >
