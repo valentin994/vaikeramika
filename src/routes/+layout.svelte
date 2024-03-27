@@ -23,9 +23,7 @@
     <nav class="text-textcol px-4 py-2 border-b-2 border-gray-100">
       <div class="flex flex-wrap items-center justify-between mx-auto w-full ">
         <a href="/" class="flex items-center p-4">
-          <span class="self-center text-xl font-light whitespace-nowrap">
-            VAI Keramika
-          </span>
+          <img alt="Logo" src="./vai_logo.svg" />
         </a>
         <div class="p-4 hidden md:max-[4200px]:block text-lg">
           <ul class="flex">
