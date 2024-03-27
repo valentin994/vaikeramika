@@ -115,16 +115,16 @@
     <footer class="bg-white p-2 border-t-2 border-gray-100 text-gray-500 text-md">
         <div class="flex flex-row justify-between">
             <div class="flex flex-col p-2 text-start">
-                <a class="p-1" href="/">Pocetna</a>
-                <a class="p-1" href="/about">O nama</a>
-                <a class="p-1" href="/gallery">Galerija</a>
-                <a class="p-1" href="/contact">Kontakt</a>
+                <a class="p-2" href="/">Pocetna</a>
+                <a class="p-2" href="/about">O nama</a>
+                <a class="p-2" href="/gallery">Galerija</a>
+                <a class="p-2" href="/contact">Kontakt</a>
             </div>
             <div class="p-2 text-end">
-                <p class="p-1">VAI Interijeri i keramika</p>
-                <p class="p-1">Ivica Vareskic</p>
-                <p class="p-1">+385 98 311 585</p>
-                <p class="p-1">75973836834</p>
+                <p class="p-2">VAI Interijeri i keramika</p>
+                <p class="p-2">Ivica Vareskic</p>
+                <p class="p-2">+385 98 311 585</p>
+                <p class="p-2">75973836834</p>
             </div> 
         </div>
         <hr class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-textcol to-transparent opacity-25" />
