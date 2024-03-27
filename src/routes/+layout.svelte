@@ -23,7 +23,7 @@
     <nav class="text-textcol px-4 py-2 border-b-2 border-gray-100">
       <div class="flex flex-wrap items-center justify-between mx-auto w-full ">
         <a href="/" class="flex items-center p-4">
-          <img alt="Logo" src="./vai_logo.svg" />
+          <img class="max-w-24" alt="Logo" src="./vai_logo.svg" />
         </a>
         <div class="p-4 hidden md:max-[4200px]:block text-lg">
           <ul class="flex">
@@ -111,7 +111,7 @@
         <div class="flex-grow bg-background">
 		  <slot />
         </div>
-    <footer class="p-2 border-t-2 border-gray-100 text-gray-500 text-md">
+    <footer class="p-2 mt-4 border-t-2 border-gray-100 text-gray-500 text-md">
         <div class="flex flex-row justify-between">
             <div class="flex flex-col p-2 text-start">
                 <a class="p-2" href="/">Pocetna</a>
