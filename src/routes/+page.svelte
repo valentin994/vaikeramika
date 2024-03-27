@@ -1,7 +1,7 @@
 <div class="flex flex-col justify-center bg-background">
     <h1 class="text-primary text-2xl font-bold text-center p-4">Iskusni keramicar sa preko 20 godina iskustva</h1>
     <div class="p-4">
-        <div class="bg-[url('/darker_home.avif')] h-56 bg-cover w-full h-auto flex flex-col align-middle justify-center rounded-lg shadow-lg">
+        <div class="bg-[url('/darker_home.avif')] bg-cover w-full h-56 flex flex-col align-middle justify-center rounded-lg shadow-lg">
             <p class="text-center text-background text-xl font-thin font-serif p-4">Uredite kupaonicu ili kuhinju,
         kreirajte svoj dom iz <span class="text-accent">snova</span>.</p>
         </div>
