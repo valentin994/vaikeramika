@@ -27,16 +27,16 @@
         </a>
         <div class="p-4 hidden md:max-[4200px]:block text-lg">
           <ul class="flex">
-            <li class="px-2 hover:text-red-800">
+            <li class="px-2 hover:text-primary">
               <a href="/">Pocetna</a>
             </li>
-            <li class="px-2 hover:text-gray-200">
+            <li class="px-2 hover:text-primary">
               <a href="/about">O nama</a>
             </li>
-            <li class="px-2 hover:text-gray-200">
+            <li class="px-2 hover:text-primary">
               <a href="/gallery">Galerija</a>
             </li>
-            <li class="px-2 hover:text-gray-200">
+            <li class="px-2 hover:text-primary">
               <a href="/contact">Kontakt</a>
             </li>
           </ul>
