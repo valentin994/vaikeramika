@@ -27,16 +27,16 @@
         </a>
         <div class="p-4 hidden md:max-[4200px]:block text-lg">
           <ul class="flex">
-            <li class="px-2 hover:text-primary">
+            <li class="px-2 hover:text-secondary">
               <a href="/">Pocetna</a>
             </li>
-            <li class="px-2 hover:text-primary">
+            <li class="px-2 hover:text-secondary">
               <a href="/about">O nama</a>
             </li>
-            <li class="px-2 hover:text-primary">
+            <li class="px-2 hover:text-secondary">
               <a href="/gallery">Galerija</a>
             </li>
-            <li class="px-2 hover:text-primary">
+            <li class="px-2 hover:text-secondary">
               <a href="/contact">Kontakt</a>
             </li>
           </ul>
@@ -67,7 +67,7 @@
       </div>
 
     <nav
-        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-primary text-background bg-opacity-100 transform delay-100 transition-all duration-300 ${
+        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-secondary text-background bg-opacity-100 transform delay-100 transition-all duration-300 ${
           isMenuOpen
             ? "opacity-100 translate-x-0"
             : "opacity-0 -translate-x-full"
@@ -111,7 +111,7 @@
         <div class="flex-grow bg-background">
 		  <slot />
         </div>
-    <footer class="p-2 mt-4 border-t-2 border-gray-100 text-gray-500 text-md">
+    <footer class="p-2 mt-4 border-t-2 bg-secondary border-gray-100 text-background text-md">
         <div class="flex flex-row justify-between">
             <div class="flex flex-col p-2 text-start">
                 <a class="p-2" href="/">Pocetna</a>
@@ -126,7 +126,7 @@
                 <p class="p-2">75973836834</p>
             </div> 
         </div>
-        <hr class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-textcol to-transparent opacity-25" />
+        <hr class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-background to-transparent opacity-25" />
         <div class="p-2 text-center">
             <p class="text-xs">© VAI Keramika i interijeri, sva prava pridrzana</p> 
             <p class="text-xs">created by Valentin Vareskic</p>
