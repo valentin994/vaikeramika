@@ -2,12 +2,6 @@
     import "../app.css";
 	import { page } from '$app/stores';
     let isMenuOpen = false;
-    $: if (isMenuOpen){
-        window.scrollTo(0,0);
-        document.body.style.overflow = "hidden";
-    }else {
-        document.body.style.overflow = "unset";
-    } ; 
 	/**
 	 * @type {string}
 	 */
