@@ -18,7 +18,7 @@
     <meta name="keywords" content="VAI Keramika i interijeri, pločice, keramika, postavljanje pločica, Hrvatska, interijeri, VAI" />
 </svelte:head>
 
-<div class="min-h-screen flex flex-col overflow-y-scroll">
+<div class="min-h-screen flex flex-col">
 
     <nav class="text-textcol px-4 py-2 ">
       <div class="flex flex-wrap items-center justify-between mx-auto w-full ">
