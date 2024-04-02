@@ -28,13 +28,15 @@
       src={selected}
       alt="" />
   </div>
-  <div class="grid grid-cols-5 gap-4 md:grid-cols-12">
+  <div class="flex overflow-x-auto space-x-8">
     {#each imageList as image}
         <div role="button"
             tabindex="0"
             on:click={(event) => selected = event.target.src}
             on:keydown={(event) => console.log(event)}
-            aria-label="select image">
+            aria-label="select image"
+            class="flex-shrink-0"
+            >
           <img
             src={image}
             class="object-cover object-center h-20 max-w-full shadow-md border border-gray-300 rounded-lg cursor-pointer" alt="gallery" />
