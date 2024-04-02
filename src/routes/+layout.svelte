@@ -2,6 +2,12 @@
     import "../app.css";
 	import { page } from '$app/stores';
     let isMenuOpen = false;
+    $: if (isMenuOpen){
+        window.scrollTo(0,0);
+        document.body.style.overflow = "hidden";
+    }else {
+        document.body.style.overflow = "unset";
+    } ; 
 	/**
 	 * @type {string}
 	 */
@@ -67,7 +73,7 @@
       </div>
 
     <nav
-        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-secondary text-background bg-opacity-100 transform delay-100 transition-all duration-300 ${
+        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-secondary text-background bg-opacity-100 transform delay-100 transition-all duration-300 overscroll-auto ${
           isMenuOpen
             ? "opacity-100 translate-x-0"
             : "opacity-0 -translate-x-full"
