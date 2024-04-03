@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="text-center p-4">
-        <button id="Contact call to action" class="px-4 py-2 bg-secondary text-background text-xl max-w-48 rounded-lg shadow-lg">Kontaktirajte nas</button>
+        <a href="./contact" class="px-4 py-2 bg-secondary text-background text-xl max-w-48 rounded-lg shadow-lg">Kontaktirajte nas</a>
     </div>
 
     <div class="md:grid md:grid-cols-3 md:auto-cols-max md:px-20">
