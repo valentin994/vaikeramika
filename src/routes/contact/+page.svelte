@@ -1,17 +1,17 @@
 <div class="flex justify-center">
-<div class="max-w-xs w-full">
+<div class="max-w-xs w-full mt-8">
   <form class="bg-gray-300 bg-opacity-25 border border-gray-200 shadow-md rounded-md px-8 pt-6 pb-8 mb-4">
     <div class="mb-4">
-      <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
         email
       </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline focus:outline-secondary" id="username" type="text" placeholder="Username">
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline focus:outline-secondary" id="email" type="email" placeholder="ivan.horvat@gmail.com">
     </div>
     <div class="mb-6">
-      <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
-        Poruka
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="poruka">
+        poruka
       </label>
-      <input class="shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="text">
+      <textarea rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline focus:outline-secondary" id="poruka"></textarea>
     </div>
     <div class="flex items-center justify-between">
       <button class="bg-secondary text-background font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
@@ -21,5 +21,10 @@
   </form>
 </div>
 </div>
-<h1 class="text-textcol text-xl text-center">Nazovite</h1>
-<p class="text-md text-secondary text-center">00385 98 311 585</p>
+<div class="flex flex-col justify-center p-4">
+    <div class="flex justify-center p-4">
+        <img class="w-12 mx-2" alt="Whatsapp" src="./wapp.svg" />
+        <img class="w-12 mx-2" alt="Telephone" src="./tel.svg" />
+    </div>
+    <a href="tel:+38598311585" class="text-md text-secondary text-center">+385 98 311 585</a>
+</div>

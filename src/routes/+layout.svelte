@@ -18,7 +18,7 @@
     <meta name="keywords" content="VAI Keramika i interijeri, pločice, keramika, postavljanje pločica, Hrvatska, interijeri, VAI" />
 </svelte:head>
 
-<div class="min-h-screen flex flex-col overflow-y-scroll">
+<div class="min-h-screen flex flex-col">
 
     <nav class="text-textcol px-4 py-2 ">
       <div class="flex flex-wrap items-center justify-between mx-auto w-full ">
@@ -67,7 +67,7 @@
       </div>
 
     <nav
-        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-secondary text-background bg-opacity-100 transform delay-100 transition-all duration-300 ${
+        class={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-secondary text-background bg-opacity-100 transform delay-100 transition-all duration-300 overscroll-auto ${
           isMenuOpen
             ? "opacity-100 translate-x-0"
             : "opacity-0 -translate-x-full"
