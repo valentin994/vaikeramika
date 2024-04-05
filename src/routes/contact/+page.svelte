@@ -1,5 +1,6 @@
 <div class="flex justify-center">
-<div class="max-w-xs w-full mt-8">
+<div class="max-w-xs lg:max-w-xl w-full mt-8">
+  <h1 class="text-center text-2xl text-secondary p-8">Kontaktirajte nas</h1>
   <form class="bg-gray-300 bg-opacity-25 border border-gray-200 shadow-md rounded-md px-8 pt-6 pb-8 mb-4">
     <div class="mb-4">
       <label class="block text-gray-700 text-sm font-bold mb-2" for="email">

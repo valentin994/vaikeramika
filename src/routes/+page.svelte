@@ -1,16 +1,16 @@
 <div class="flex flex-col justify-center bg-background">
     <h1 class="text-textcol text-2xl font-bold text-center p-4">Iskusni keramicar sa preko 20 godina iskustva</h1>
-    <div class="p-4 md:px-24">
+    <div class="p-4 md:px-24 lg:px-52">
         <div class="bg-[url('/darker_home.avif')] bg-cover w-full h-56 flex flex-col align-middle justify-center rounded-lg shadow-lg md:h-80">
             <p class="text-center text-background text-xl font-thin font-serif p-4">Uredite kupaonicu ili kuhinju,
         kreirajte svoj dom iz <span class="text-accent">snova</span>.</p>
         </div>
     </div>
-    <div class="text-center p-4">
+    <div class="text-center my-2 p-4">
         <a href="./contact" class="px-4 py-2 bg-secondary text-background text-xl max-w-48 rounded-lg shadow-lg">Kontaktirajte nas</a>
     </div>
 
-    <div class="md:grid md:grid-cols-3 md:auto-cols-max md:px-20">
+    <div class="my-2 md:grid md:grid-cols-3 md:auto-cols-max md:px-20 lg:px-48">
         <div class="p-4 text-textcol flex">
             <div class="p-4 bg-gray-300 border border-gray-300 bg-opacity-25 rounded-lg shadow-lg">
                 <h1 class="text-xl text-secondary font-bold">Pouzdan</h1>

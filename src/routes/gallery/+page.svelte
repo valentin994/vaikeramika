@@ -22,7 +22,7 @@
 <h1 class="text-xl text-secondary font-semibold text-center p-4">Nasi radovi</h1>
 
 
-<div class="grid gap-4 p-4 md:px-24">
+<div class="grid gap-4 p-4 md:px-24 lg:px-52 mb-8">
   <div>
     <img class="h-auto w-full max-w-full shadow-md border border-gray-300 rounded-lg object-cover object-center md:h-[480px]"
       src={selected}
