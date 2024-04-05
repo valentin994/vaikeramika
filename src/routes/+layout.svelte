@@ -111,13 +111,23 @@
         <div class="flex-grow bg-background">
 		  <slot />
         </div>
-    <footer class="p-2 mt-4 border-t-2 border-gray-100 text-textcol text-md md:px-20 lg:px-52">
-        <div class="flex flex-row justify-between">
-            <div class="flex flex-col p-2 text-start">
-                <a class="p-2" href="/">Pocetna</a>
-                <a class="p-2" href="/about">O nama</a>
-                <a class="p-2" href="/gallery">Galerija</a>
-                <a class="p-2" href="/contact">Kontakt</a>
+    <footer class="p-2 mt-4 border-t border-gray-300 text-textcol text-md md:px-20 lg:px-52 md:text-g mg-gray-300 bg-gray-300 bg-opacity-25">
+        <div class="flex flex-row justify-between my-4 md:my-12">
+            <div class="flex flex-col p-2 text-start ">
+                <div class="p-2 content-center">
+                    <a class="hover:text-gray-500" href="/">Pocetna</a>
+                </div>
+                <div class="p-2 content-center">
+                    <a class="hover:text-gray-500" href="/about">O nama</a>
+                </div>
+                <div class="p-2 content-center">
+                    <a class="hover:text-gray-500" href="/gallery">Galerija</a>
+                </div>
+                <div class="p-2 content-center">
+                    <a class="hover:text-gray-500" href="/contact">Kontakt</a>
+                </div>
+
+
             </div>
             <div class="p-2 text-end">
                 <p class="p-2">VAI Interijeri i keramika</p>
@@ -129,7 +139,7 @@
         <hr class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-textcol to-transparent opacity-25" />
         <div class="p-2 text-center">
             <p class="text-xs">© VAI Keramika i interijeri, sva prava pridrzana</p> 
-            <p class="text-xs">created by Valentin Vareskic</p>
+            <p class="text-xs">created by <a href="https://github.com/valentin994" target="_blank">Valentin Vareskic</a></p>
         </div>
     </footer>
 </div>

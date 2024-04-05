@@ -1,5 +1,5 @@
 <div class="flex justify-center">
-<div class="max-w-xs lg:max-w-xl w-full mt-8">
+<div class="max-w-xs md:max-w-lg lg:max-w-xl w-full mt-8">
   <h1 class="text-center text-2xl text-secondary p-8">Kontaktirajte nas</h1>
   <form class="bg-gray-300 bg-opacity-25 border border-gray-200 shadow-md rounded-md px-8 pt-6 pb-8 mb-4">
     <div class="mb-4">
@@ -12,7 +12,7 @@
       <label class="block text-gray-700 text-sm font-bold mb-2" for="poruka">
         poruka
       </label>
-      <textarea rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline focus:outline-secondary" id="poruka"></textarea>
+      <textarea rows="6" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline focus:outline-secondary " id="poruka"></textarea>
     </div>
     <div class="flex items-center justify-between">
       <button class="bg-secondary text-background font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
