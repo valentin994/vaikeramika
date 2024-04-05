@@ -111,7 +111,7 @@
         <div class="flex-grow bg-background">
 		  <slot />
         </div>
-    <footer class="p-2 mt-4 border-t-2 border-gray-100 text-textcol text-md md:px-20">
+    <footer class="p-2 mt-4 border-t-2 border-gray-100 text-textcol text-md md:px-20 lg:px-52">
         <div class="flex flex-row justify-between">
             <div class="flex flex-col p-2 text-start">
                 <a class="p-2" href="/">Pocetna</a>
