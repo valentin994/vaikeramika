@@ -111,29 +111,29 @@
         <div class="flex-grow bg-background">
 		  <slot />
         </div>
-    <footer class="p-2 mt-4 border-t border-gray-300 text-textcol text-md md:px-20 lg:px-52 md:text-g mg-gray-300 bg-gray-300 bg-opacity-25">
+    <footer class="p-2 mt-4 border-t border-gray-300 text-textcol text-md md:px-20 lg:px-52 md:text-sm bg-gray-300 bg-opacity-25">
         <div class="flex flex-row justify-between my-4 md:my-12">
-            <div class="flex flex-col p-2 text-start ">
-                <div class="p-2 content-center">
+            <div class="flex flex-col p-2 text-start md:flex-row">
+                <div class="p-2 content-center md:py-px">
                     <a class="hover:text-gray-500" href="/">Pocetna</a>
                 </div>
-                <div class="p-2 content-center">
+                <div class="p-2 content-center  md:py-px">
                     <a class="hover:text-gray-500" href="/about">O nama</a>
                 </div>
-                <div class="p-2 content-center">
+                <div class="p-2 content-center  md:py-px">
                     <a class="hover:text-gray-500" href="/gallery">Galerija</a>
                 </div>
-                <div class="p-2 content-center">
+                <div class="p-2 content-center  md:py-px">
                     <a class="hover:text-gray-500" href="/contact">Kontakt</a>
                 </div>
 
 
             </div>
             <div class="p-2 text-end">
-                <p class="p-2">VAI Interijeri i keramika</p>
-                <p class="p-2">Ivica Vareskic</p>
-                <p class="p-2">+385 98 311 585</p>
-                <p class="p-2">75973836834</p>
+                <p class="p-2 md:p-0 md:py-px">VAI Interijeri i keramika</p>
+                <p class="p-2 md:p-0 md:py-px">Ivica Vareskic</p>
+                <p class="p-2 md:p-0 md:py-px">+385 98 311 585</p>
+                <p class="p-2 md:p-0 md:py-px">75973836834</p>
             </div> 
         </div>
         <hr class="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-textcol to-transparent opacity-25" />

@@ -46,7 +46,7 @@
 	}
 </script>
 
-<h1 class="p-4 text-xl text-center my-4 md:px-20 lg:px-52">
+<h1 class="p-4 text-xl text-center my-4 md:px-20 lg:px-52 md:text-4xl">
 	Nudimo širok spektar usluga, od jednostavnog postavljanja podnih pločica do složenih zidnih obloga
 	i dekoracija.
 </h1>

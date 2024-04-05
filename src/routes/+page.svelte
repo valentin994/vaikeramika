@@ -1,5 +1,5 @@
 <div class="flex flex-col justify-center bg-background">
-    <h1 class="text-textcol text-2xl font-bold text-center p-4 my-2">Iskusni keramicar sa preko 20 godina iskustva</h1>
+    <h1 class="text-textcol text-2xl font-bold text-center p-4 my-2 md:text-4xl">Iskusni keramicar sa preko 20 godina iskustva</h1>
     <div class="p-4 md:px-24 lg:px-52">
         <div class="bg-[url('/darker_home.avif')] bg-cover w-full h-56 flex flex-col align-middle justify-center rounded-lg shadow-lg md:h-96">
             <p class="text-center text-background text-xl font-thin font-serif p-4">Uredite kupaonicu ili kuhinju,
